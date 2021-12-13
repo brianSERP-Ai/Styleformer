@@ -97,7 +97,7 @@ class Styleformer():
       preds = self.ctf_model.generate(
           input_ids,
           do_sample=True, 
-          max_length=250, 
+          max_length=600, 
           top_k=50, 
           top_p=0.95, 
           early_stopping=False,
