@@ -69,7 +69,7 @@ class Styleformer():
       preds = self.ftc_model.generate(
           input_ids,
           do_sample=True, 
-          max_length=32, 
+          max_length=250, 
           top_k=50, 
           top_p=0.95, 
           early_stopping=True,
@@ -125,7 +125,7 @@ class Styleformer():
       preds = self.atp_model.generate(
           input_ids,
           do_sample=True, 
-          max_length=32, 
+          max_length=250, 
           top_k=50, 
           top_p=0.95, 
           early_stopping=True,
@@ -144,7 +144,7 @@ class Styleformer():
       preds = self.pta_model.generate(
           input_ids,
           do_sample=True, 
-          max_length=32, 
+          max_length=250, 
           top_k=50, 
           top_p=0.95, 
           early_stopping=True,
