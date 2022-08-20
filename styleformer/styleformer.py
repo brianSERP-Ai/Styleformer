@@ -69,7 +69,7 @@ class Styleformer():
       preds = self.ftc_model.generate(
           input_ids,
           do_sample=True, 
-          max_length=250, 
+          max_length=300, 
           top_k=50, 
           top_p=0.95, 
           early_stopping=True,
